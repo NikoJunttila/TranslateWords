@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="fontawesome-free-5.12.0-web/css/all.css">
+    <link rel="stylesheet" href="sidebars.css">
+</head>
+<body onload="onload1()">
+<div id="main">
+    <h2>This is dictionary for finnish and english</h2>
+    <select id="chooseLanguage" onchange="languageChoser()">
+        <option value="finEng">FIN - ENG</option>
+        <option value="engFin">ENG - FIN</option>
+        
+    </select>
+    <input class="important" type="text" id="word">
+    <button  class="important" id="btn" onclick="fin_eng(fullArr)">Get translation</button>
+    <span id="translation" value="text"></span>
+</div>    
+<button class="sidebar-toggle">
+    <i class="fas fa-bars"></i> check<br>available<br>words
+     </button>
+    <aside id="sidebarz" class="sidebar">
+         <div class="sidebar-header" style="background-image: url('images.png'); background-size: cover;">
+         <button class="closeBtn">
+             <i class="fas fa-times"></i>
+         </button>
+         </div>
+         <div id="wo"></div>
+ 
+    </aside>
+    <script  src="dictionary.js"></script>
+</body>
+
+</html>

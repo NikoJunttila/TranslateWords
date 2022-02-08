@@ -1,0 +1,15 @@
+[
+    'erilainen','kuva','mestari','ilmoitettu',
+    'kautta','yleensä','bensiini', 'työvoima',
+    'mahdollisesti','antaa','muoto','eroavat',
+    'Huolestunut', 'autotalli', 'ihmiset', 'suunnittelu',
+    'revitty', 'huolellisesti', 'kokeilu', 'erityisesti',
+    'toukokuu','kammio','kompleksi','jäsen',
+    'periaate','rengas','kirjoittaminen','pieni',
+    'vatsa', 'istuminen', 'kurkku', 'puuttuu',
+    'dozen', 'kohti', 'lähellä', 'siis',
+    'Kasvoi', 'auta', 'tutkia', 'täydellinen',
+   'sukua', 'syvyys', 'top', 'oppitunti',
+   'tyytyväinen','vihollinen', 'yli', 'itse',
+   'kohden', 'monimutkainen'
+  ]
